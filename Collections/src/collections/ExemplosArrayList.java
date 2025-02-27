@@ -88,7 +88,7 @@ public class ExemplosArrayList {
       listaInteiros.add(i);
     }
 
-    for (int i : listaInteiros) {
+    for (Integer i : listaInteiros) {
       System.out.println(i);
     }
   }
