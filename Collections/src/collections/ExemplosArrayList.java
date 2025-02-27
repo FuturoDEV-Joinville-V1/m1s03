@@ -82,5 +82,14 @@ public class ExemplosArrayList {
     for (String nome : nomes) {
       System.out.println(nome);
     }
+
+    List<Integer> listaInteiros = new ArrayList<>();
+    for (int i = 0; i < 10; i++) {
+      listaInteiros.add(i);
+    }
+
+    for (Integer i : listaInteiros) {
+      System.out.println(i);
+    }
   }
 }
